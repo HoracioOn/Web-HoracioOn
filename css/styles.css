@@ -287,7 +287,49 @@ Animations
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); } }
 
+    .marca-hero {
+        -webkit-animation: color-change 3s infinite;
+        -moz-animation: color-change 3s infinite;
+        -o-animation: color-change 3s infinite;
+        -ms-animation: color-change 3s infinite;
+        animation: color-change 3s infinite;
+    }
 
+    @-webkit-keyframes color-change {
+        0% { color: aqua; }
+        25% { color:darkturquoise; }
+        50% { color: powderblue; }
+        75% { color: aquamarine; }
+        100% { color: skyblue; }
+    }
+    @-moz-keyframes color-change {
+        0% { color: aqua; }
+        25% { color:darkturquoise; }
+        50% { color: powderblue; }
+        75% { color: aquamarine; }
+        100% { color: skyblue; }
+    }
+    @-ms-keyframes color-change {
+        0% { color: aqua; }
+        25% { color:darkturquoise; }
+        50% { color: powderblue; }
+        75% { color: aquamarine; }
+        100% { color: skyblue; }
+    }
+    @-o-keyframes color-change {
+        0% { color: aqua; }
+        25% { color:darkturquoise; }
+        50% { color: powderblue; }
+        75% { color: aquamarine; }
+        100% { color: skyblue; }
+    }
+    @keyframes color-change {
+        0% { color: aqua; }
+        25% { color:darkturquoise; }
+        50% { color: powderblue; }
+        75% { color: aquamarine; }
+        100% { color: skyblue; }
+    }
 /* ==========================================================================
 Waypoinsts
 ========================================================================== */
